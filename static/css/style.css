@@ -1,0 +1,131 @@
+/* ===========================
+   Petrol Pump Management System
+   =========================== */
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f7fb;
+}
+
+/* Navbar */
+
+.navbar{
+    box-shadow:0 3px 8px rgba(0,0,0,0.2);
+}
+
+.navbar-brand{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.nav-link{
+    color:white !important;
+    margin-left:12px;
+    transition:0.3s;
+}
+
+.nav-link:hover{
+    color:#ffd54f !important;
+}
+
+/* Hero Section */
+
+.display-4{
+    color:#0d6efd;
+    font-weight:bold;
+}
+
+.lead{
+    color:#555;
+}
+
+/* Cards */
+
+.card{
+    border:none;
+    border-radius:12px;
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.card-header{
+    font-size:22px;
+    font-weight:bold;
+}
+
+/* Buttons */
+
+.btn{
+    border-radius:8px;
+    padding:10px 25px;
+}
+
+.btn-success:hover,
+.btn-primary:hover,
+.btn-warning:hover,
+.btn-danger:hover,
+.btn-dark:hover{
+    transform:scale(1.03);
+}
+
+/* Forms */
+
+label{
+    font-weight:bold;
+}
+
+.form-control,
+.form-select{
+    border-radius:8px;
+}
+
+.form-control:focus,
+.form-select:focus{
+    box-shadow:0 0 6px rgba(13,110,253,.4);
+}
+
+/* Tables */
+
+table{
+    background:white;
+}
+
+thead{
+    text-align:center;
+}
+
+th{
+    text-align:center;
+}
+
+td{
+    vertical-align:middle;
+}
+
+/* Footer */
+
+footer{
+    margin-top:50px;
+    font-size:15px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .display-4{
+        font-size:32px;
+    }
+
+    .navbar-brand{
+        font-size:18px;
+    }
+
+}
