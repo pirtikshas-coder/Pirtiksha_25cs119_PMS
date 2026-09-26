@@ -1,0 +1,37 @@
+# Petrol Pump Management System
+
+A web-based Petrol Pump Management System developed using **Python, Flask, HTML, CSS, and SQLAlchemy**. This project provides a simple interface for managing petrol pump operations and storing application data in a database.
+
+## Features
+
+- Web-based petrol pump management
+- Flask backend
+- Database integration using SQLAlchemy
+- HTML templates for the frontend
+- CSS-based styling
+- Organized project structure
+- Local database support
+
+## Technologies Used
+
+- Python
+- Flask
+- SQLAlchemy
+- HTML
+- CSS
+- SQLite
+
+## Project Structure
+
+```text
+Pirtiksha_25cs119_PMS/
+│
+├── __pycache__/
+├── static/
+│   └── css/
+├── templates/
+│
+├── app.py
+├── database.py
+├── models.py
+└── README.md
