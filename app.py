@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # ---------------- DATABASE ----------------
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:admin123@localhost/petrolpump"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///petrolpump.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 db.init_app(app)
